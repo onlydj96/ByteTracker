@@ -1,0 +1,3 @@
+/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build/CMakeFiles/ByteTracker.dir
+/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build/CMakeFiles/edit_cache.dir
+/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build/CMakeFiles/rebuild_cache.dir

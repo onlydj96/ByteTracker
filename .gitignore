@@ -1,0 +1,6 @@
+video/*
+tutorials
+weights/*
+source/*
+results/*
+yolox.egg-info

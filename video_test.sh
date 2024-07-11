@@ -1,0 +1,1 @@
+python3 bytetracker_video_test.py --source_video_path source/vehicle-counting.mp4 --output_video_path results/vehicle-counting-result.mp4

@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/BYTETracker.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/BYTETracker.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/BYTETracker.cpp"
+},
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/BYTETrackerUtils.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/BYTETrackerUtils.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/BYTETrackerUtils.cpp"
+},
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/KalmanFilter.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/KalmanFilter.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/KalmanFilter.cpp"
+},
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/Lapjv.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/Lapjv.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/Lapjv.cpp"
+},
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/NvMOTContext.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/NvMOTContext.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/NvMOTContext.cpp"
+},
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/STrack.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/STrack.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/STrack.cpp"
+},
+{
+  "directory": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -DByteTracker_EXPORTS -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/opt/nvidia/deepstream/deepstream/sources/includes -I/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/includes -Wall -Wextra -fPIC -g -fPIC -std=gnu++14 -o CMakeFiles/ByteTracker.dir/src/Tracker.cpp.o -c /home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/Tracker.cpp",
+  "file": "/home/kiot/Desktop/hdd1/kiot_detect/ByteTrack-main/deploy/DeepStream/src/Tracker.cpp"
+}
+]

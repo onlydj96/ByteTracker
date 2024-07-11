@@ -1,0 +1,26 @@
+ninja_required_version = 1.3
+cxx = c++
+
+cflags = -pthread -B /opt/miniconda/envs/bytetracker/compiler_compat -Wl,--sysroot=/ -Wno-unused-result -Wsign-compare -DNDEBUG -O2 -Wall -fPIC -O2 -isystem /opt/miniconda/envs/bytetracker/include -fPIC -O2 -isystem /opt/miniconda/envs/bytetracker/include -fPIC -I/workspace/bytetracker/yolox/layers/csrc -I/opt/miniconda/envs/bytetracker/lib/python3.9/site-packages/torch/include -I/opt/miniconda/envs/bytetracker/lib/python3.9/site-packages/torch/include/torch/csrc/api/include -I/opt/miniconda/envs/bytetracker/lib/python3.9/site-packages/torch/include/TH -I/opt/miniconda/envs/bytetracker/lib/python3.9/site-packages/torch/include/THC -I/opt/miniconda/envs/bytetracker/include/python3.9 -c
+post_cflags = -O3 -DTORCH_API_INCLUDE_EXTENSION_H '-DPYBIND11_COMPILER_TYPE="_gcc"' '-DPYBIND11_STDLIB="_libstdcpp"' '-DPYBIND11_BUILD_ABI="_cxxabi1011"' -DTORCH_EXTENSION_NAME=_C -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++17
+cuda_dlink_post_cflags = 
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+
+
+
+
+build /workspace/bytetracker/build/temp.linux-x86_64-cpython-39/workspace/bytetracker/yolox/layers/csrc/cocoeval/cocoeval.o: compile /workspace/bytetracker/yolox/layers/csrc/cocoeval/cocoeval.cpp
+build /workspace/bytetracker/build/temp.linux-x86_64-cpython-39/workspace/bytetracker/yolox/layers/csrc/vision.o: compile /workspace/bytetracker/yolox/layers/csrc/vision.cpp
+
+
+
+
+
+
+
